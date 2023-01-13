@@ -22,10 +22,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "styles": [  
+    "./node_modules/bootstrap/dist/css/bootstrap.css",
+    "src/styles.css"
+],
+"scripts": [               
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+
           },
           "configurations": {
             "production": {
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1da5416f-83f0-4c14-a018-342ff3b00bfe"
   }
 }
